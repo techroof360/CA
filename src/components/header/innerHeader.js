@@ -99,13 +99,14 @@ const useStyles = makeStyles((theme) => ({
             <UncontrolledDropdown nav inNavbar id="drop" style={{backgroundColor:'#79975C', color: "white" }}>
               <DropdownToggle nav caret style={{  color: "white" }}>
               {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu"> */}
-              <MenuIcon />
+              {/* <MenuIcon /> */}
+              Projects
             {/* </IconButton> */}
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>
+                {/* <DropdownItem>
                Projects
-                </DropdownItem>
+                </DropdownItem> */}
                 <DropdownItem>
               Clients
                 </DropdownItem>
