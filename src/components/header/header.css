@@ -1,0 +1,41 @@
+.navBar , .headerContainer{
+    background-color: #1A2C36 !important;
+}
+.text{
+    font-size: 12px !important;
+}
+h1, span, p{
+    text-transform: capitalize;
+}
+.innerHeaderContainer{
+    background-color: #79975C !important
+}
+.dropdown-menu-right{
+    left: 0px;
+    background-color: #79975C !important;
+}
+.dropdown-item:hover{
+    background-color: #718E55 !important;
+    color: white !important;
+}
+.nav-item:hover{
+    background-color: #718E55 !important;
+}
+.nav-item:hover {
+    background-color: #718E55 !important;
+}
+.dropdown-item{
+   
+    color: white !important;
+}
+/* .MuiSvgIcon-root{
+ display: none !important; 
+} */
+#handelNav{
+    margin-left: 6% !important;
+}
+.makeStyles-sectionMobile-10 {
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+}

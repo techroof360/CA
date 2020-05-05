@@ -1,0 +1,66 @@
+.myHome{
+height: 330px;
+background: url(https://screenshotmonitor.com//less/common/img/site_bg.png);
+ background-repeat: repeat-x 50% -20px ;
+}
+#handelEmployee{
+    position: absolute;
+    right: 350px;
+      top: 43px;
+      /* height: 204px */
+}
+#handelManager{
+    position: absolute;
+      right: 16px;  
+     top: 43px;
+     /* height: 204px */
+}
+#container{
+    margin: 0 auto;
+    width: 1040px;
+    min-height: 215px;
+    padding: 25px 7px 5px;
+    position: relative;
+}
+ #personImg{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+#intro_est{
+    display: flex;
+    margin-top: 50px;
+}
+#Demo{
+    min-width: 120px !important;
+    text-align: center !important;
+    background-color: #e44d32;
+    border-color: #b83b25 !important;
+    width: 120px !important;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+}
+#Demo:hover{
+    background-color: #c8341f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#PlanPricing{
+    font-weight: bold;padding-left: 0; padding-right: 0; color: #1a487d; text-shadow: 0 0 2px #fff; text-decoration: none; border-bottom: solid 1px #1A487D; padding: 0
+}
+/* .myHome{
+background: url(https://screenshotmonitor.com//less/common/img/site_bg.png) repeat-x 50% -20px;
+    background-image: url(/less/common/img/site_bg.png);
+    background-position-x: 50%;
+    background-position-y: -20px;
+    background-size: initial;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+} */
