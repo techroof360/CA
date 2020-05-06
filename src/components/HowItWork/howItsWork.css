@@ -1,0 +1,103 @@
+#body {
+    background: url(https://screenshotmonitor.com/less/common/img/site_bg.png) repeat-x 50% -20px;
+    color: #000;
+    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    /* height: 300px; */
+}
+ div#content_wrapper {
+    border-radius: 15px 15px 15px 15px;
+    border: solid 7px rgba(0,0,0,.11);
+    margin: 20px auto;
+    width: 1040px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+} 
+ div#content_wrapper_inner {
+    background: #fff;
+    border-radius: 8px 8px 8px 8px;
+    padding: 0 0 10px;
+    min-height: 460px;
+} 
+ div#content_wrapper_inner:before {
+    content: '.';
+    display: block;
+    height: 0;
+    overflow: hidden;
+} 
+ div#page_title {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 1.79em 3%;
+    background: url(https://screenshotmonitor.com/less/common/img/site_bg_blurred3.png) repeat-x center top #ccd8e0;
+} 
+
+ div#page_title h1 {
+    font-weight: normal;
+    line-height: 1.3em;
+    font-size: 2.79em;
+    margin: 0 0 .2em;
+    margin: 0;
+    font-weight: 400;
+    text-align: left;
+} 
+ #floadRight{
+    float: right;
+} 
+ #howitwork{
+    display: inline-block;
+   
+} 
+ .scr {
+    width: 100%;
+    margin: 0 0 40px;
+    padding: 0 0 40px;
+    border-bottom: dashed 1px #aaa;
+}
+.scr>div {
+    display: block;
+    float: right;
+    border: solid 7px #eee;
+    border-radius: 15px;
+    margin: 0 0 0 30px;
+    position: relative;
+}
+.scr h4 {
+    padding: 15px 0 0 0;
+    font-size: 1.5em;
+    color: #769ba9;
+}
+.scr p {
+    margin: 15px 0 0 50px;
+} 
+.scr h4 span {
+    color: #fff;
+    background: #769ba9;
+    display: inline-block;
+    padding: 2px;
+    text-align: center;
+    min-width: 25px;
+    margin-right: 20px;
+    border-radius: 6px;
+    text-shadow: 0 1px 1px #777;
+}
+#clearBottom{
+    border-bottom: none;
+}
+#planAndPrice{
+    text-align: center;
+    background: #f5f5f5;
+    border-radius: 6px;
+    padding: 25px;
+    font-size: 22px;
+}
+.scr {
+    width: 100%;
+    margin: 0 0 40px;
+    padding: 0 0 40px;
+    border-bottom: dashed 1px #aaa;
+}

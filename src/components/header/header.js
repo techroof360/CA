@@ -1,4 +1,5 @@
 import React , {useState} from "react";
+import { Route,  BrowserRouter , Redirect , Link} from "react-router-dom";
 
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
@@ -193,21 +194,24 @@ export default function Header() {
 
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-            <Typography className={classes.title} style={{ color: "white" }}>
+           <Link to="/"> <Typography className={classes.title} style={{ color: "white" }}>
               <Button color="inherit" className="text">
                 Home
               </Button>
             </Typography>
+            </Link>
+            <Link to="/myhome">
             <Typography className={classes.title} style={{ color: "white" }}>
-              <Button color="inherit" className="text">
+             <Button color="inherit" className="text">
                 Demo
               </Button>
             </Typography>
-            <Typography className={classes.title} style={{ color: "white" }}>
+            </Link>
+          <Link to="/tour">  <Typography className={classes.title} style={{ color: "white" }}>
               <Button color="inherit" className="text">
                 How it Work
               </Button>
-            </Typography>
+            </Typography></Link>
             <Typography className={classes.title} style={{ color: "white" }}>
               <Button color="inherit" className="text">
                 Pricing
