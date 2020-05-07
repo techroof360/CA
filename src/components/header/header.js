@@ -212,21 +212,21 @@ export default function Header() {
                 How it Work
               </Button>
             </Typography></Link>
-            <Typography className={classes.title} style={{ color: "white" }}>
+         <Link to="/pricing">   <Typography className={classes.title} style={{ color: "white" }}>
               <Button color="inherit" className="text">
                 Pricing
               </Button>
-            </Typography>
-            <Typography className={classes.title} style={{ color: "white" }}>
+            </Typography></Link>
+          <Link to="/download_win">  <Typography className={classes.title} style={{ color: "white" }}>
               <Button color="inherit" className="text">
                 Download
               </Button>
-            </Typography>
-            <Typography className={classes.title} style={{ color: "white" }}>
+            </Typography></Link>
+          <Link to="/support">  <Typography className={classes.title} style={{ color: "white" }}>
               <Button color="inherit" className="text">
                 Support
               </Button>
-            </Typography>
+            </Typography></Link>
             <Typography className={classes.title} style={{ color: "white" }}>
               <Button color="inherit" className="text">
                 Blog

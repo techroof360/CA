@@ -1,0 +1,87 @@
+div#content_wrapper {
+    border-radius: 15px 15px 15px 15px;
+    border: solid 7px rgba(0,0,0,.11);
+    margin: 20px auto;
+    width: 1040px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+div#content_wrapper_inner {
+    background: #fff;
+    border-radius: 8px 8px 8px 8px;
+    padding: 0 0 10px;
+    min-height: 460px;
+}
+.account_layout div#page_title {
+    padding: 1.2em 3%;
+}
+div#page_title {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 1.79em 3%;
+    background: url(https://screenshotmonitor.com/less/common/img/site_bg_blurred3.png) repeat-x center top #ccd8e0;
+}
+.account_layout div#page_title h1 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+div#page_title h1 {
+    font-weight: normal;
+    line-height: 1.3em;
+    font-size: 2.79em;
+    margin: 0 0 .2em;
+    margin: 0;
+    font-weight: 400;
+}
+div#content_wide {
+    margin: 3% 0 0 3%;
+    width: 94%;
+}
+.tpl-download h4 {
+    font-size: 20px;
+    margin-top: 40px;
+}
+#tplImg {
+    float: right;
+    border: 8px solid rgb(238, 238, 238);
+    border-radius: 14px;
+    margin: 0px 0px 100px 30px;
+}
+#tpl-Handel-img{
+    display: block;
+    border-radius: 6px;
+    width: 395px;
+    height: 260px;
+}
+.tpl-download>p {
+    margin: 10px 0 30px;
+    text-align: left;
+}
+.action_micro:hover, .action_micro:focus {
+    color: #fff;
+    background-color: #749455;
+    text-decoration: none;
+}
+.action_micro {
+    background-color: #7f9e61;
+    border-color: #638245;
+}
+#downloadImg{
+    font-size: 1.3em;
+    padding: 0.8em 1em;
+    color: white;
+}
+#macOS{
+    margin-top: 20px;
+    display: inline-block;
+}
+#linux{
+    margin-top: 5px;
+    display: inline-block;
+}
+.tpl-download h4 {
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: left;
+}
